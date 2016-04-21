@@ -5,15 +5,15 @@
 
 There are some things that I regularly need to come back to and refresh myself on.
 
-### Software Dev soft skills
+### Software Dev Soft Skills
 * [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
-
+* [Don't Re-estimate Stories](https://www.mountaingoatsoftware.com/blog/to-re-estimate-or-not-that-is-the-question)
 
 ### Testing
 
 * [Don't Mock What You Don't Own](https://blog.8thlight.com/eric-smith/2011/10/27/thats-not-yours.html)
 * [Proper Naming of Test Doubles](https://blog.8thlight.com/uncle-bob/2014/05/14/TheLittleMocker.html)
-* [Principles of Test Automation](http://xunitpatterns.com/Principles%20of%20Test%20Automation.html#Use%20the%20Front%20Door%20First) useful beyond the "automation" part.
+* [Principles of Test Automation](http://xunitpatterns.com/Principles%20of%20Test%20Automation.html#Use%20the%20Front%20Door%20First) (useful beyond the "automation" part)
 
 ##Today I Learned:
 
