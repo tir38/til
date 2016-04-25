@@ -19,8 +19,9 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **4/25/2016** `ellipsize="middle"` is an attribute/value on TextView that will automagically remove elements in the middle to ensure text fits [docs](http://developer.android.com/reference/android/widget/TextView.html#attr_android:ellipsize)
 
-* 12/21/2015	$? is a special bash variable that's the exit code of the previous command	http://www.thegeekstuff.com/2010/03/bash-shell-exit-status/
+* **12/21/2015** `$?` is a special bash variable that's the exit code of the previous command	[link](http://www.thegeekstuff.com/2010/03/bash-shell-exit-status/)
 
 * 12/10/2015	travis will run scripts in individual bash processes	https://docs.travis-ci.com/user/ci-environment/#Group-membership
 
