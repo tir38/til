@@ -17,7 +17,12 @@ There are some things that I regularly need to come back to and refresh myself o
 
 ##Today I Learned:
 
+
 A running list of things that I've learned or had to re-learn:
+
+* **4/27/2016** sacrificial architecture [link](http://martinfowler.com/bliki/SacrificialArchitecture.html). specifically this quote:
+
+	>Indeed one of the best things to do with an early version of a system is to explore what the best modular structure should be so that you can build on that knowledge for the replacement
 
 * **4/25/2016** `ellipsize="middle"` is an attribute/value on TextView that will automagically remove elements in the middle to ensure text fits [docs](http://developer.android.com/reference/android/widget/TextView.html#attr_android:ellipsize)
 
