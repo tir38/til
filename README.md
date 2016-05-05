@@ -17,8 +17,9 @@ There are some things that I regularly need to come back to and refresh myself o
 
 ##Today I Learned:
 
-
 A running list of things that I've learned or had to re-learn:
+
+* **5/5/2016** - TextView support seamless shadows with `android:shadowColor`, `android:shadowDx`, `android:shadowDy`, and `android:shadowRadius`. [link](http://developer.android.com/reference/android/widget/TextView.html#attr_android:shadowColor)
 
 * **5/4/2016** - `Stroke` has `dashGap` and `dashWidth` for making dashed line drawable shapes. [link](http://developer.android.com/guide/topics/resources/drawable-resource.html#stroke-element)
 
@@ -30,11 +31,11 @@ A running list of things that I've learned or had to re-learn:
 
 * **12/21/2015** `$?` is a special bash variable that's the exit code of the previous command	[link](http://www.thegeekstuff.com/2010/03/bash-shell-exit-status/)
 
-* **12/10/2015**	travis will run scripts in individual bash processes. [link](https://docs.travis-ci.com/user/ci-environment/#Group-membership)
+* **12/10/2015**	Travis will run scripts in individual bash processes. [link](https://docs.travis-ci.com/user/ci-environment/#Group-membership)
 
 * **10/9/2015**	Genymotion doesn't support ARM translation out of the box. [link](http://stackoverflow.com/a/24572239)
 
-* 10/6/2015	onCreateNative() and onDestroyNative() pattern for passing stuff down to JNI library at the start of an Activity (and cleanup)
+* **10/6/2015**	`onCreateNative()` and `onDestroyNative()` pattern for passing stuff down to JNI library at the start of an Activity (and cleanup)
 
 * 10/5/2015	Timber is awesome; always use it	
 
