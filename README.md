@@ -19,6 +19,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **5/16/2016** `TextUtils.join` for creating character-delimited strings; [link](https://developer.android.com/reference/android/text/TextUtils.html#join(java.lang.CharSequence, java.lang.Object[]))
+
 * **5/10/2016** - TextView has `letterSpacing` attribute for custom kerning (on API 21+) [link](http://developer.android.com/reference/android/widget/TextView.html#attr_android:letterSpacing)
 
 * **5/5/2016** - TextView support seamless shadows with `android:shadowColor`, `android:shadowDx`, `android:shadowDy`, and `android:shadowRadius`. [link](http://developer.android.com/reference/android/widget/TextView.html#attr_android:shadowColor)
@@ -41,7 +43,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **10/5/2015** Timber is awesome; always use it
 
-* 9/8/2015	InstantiationException is a thing	http://docs.oracle.com/javase/7/docs/api/java/lang/InstantiationException.html
+* **9/8/2015**	InstantiationException is a thing: [link](http://docs.oracle.com/javase/7/docs/api/java/lang/InstantiationException.html)
 
 * 8/24/2015	in AS we can see running threads in debug without having to use breakpoint with "Restore 'Threads' view"	
 
