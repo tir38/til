@@ -19,6 +19,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **Rx's Obervable.subscribe() has overload for multiple functions** - This means that you don't have to pass in an Observer which imlement's three methods (onNext, onError, and onComplete). By passing in a three-method object, you can't lambda-ify. However with the overloaded subscribe() method, it takes in single-method objects (i.e. function objects) as parameters. [link](http://reactivex.io/RxJava/javadoc/rx/Observable.html#subscribe(rx.functions.Action1,%20rx.functions.Action1,%20rx.functions.Action0%29). This means you can lambda-ify.
+
 * **5/16/2016** `TextUtils.join` for creating character-delimited strings; [link](https://developer.android.com/reference/android/text/TextUtils.html#join(java.lang.CharSequence, java.lang.Object[]))
 
 * **5/10/2016** - TextView has `letterSpacing` attribute for custom kerning (on API 21+) [link](http://developer.android.com/reference/android/widget/TextView.html#attr_android:letterSpacing)
@@ -45,7 +47,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **9/8/2015**	InstantiationException is a thing: [link](http://docs.oracle.com/javase/7/docs/api/java/lang/InstantiationException.html)
 
-* 8/24/2015	in AS we can see running threads in debug without having to use breakpoint with "Restore 'Threads' view"	
+* **8/24/2015**	in Android Studio we can see running threads in debug without having to use breakpoint with "Restore 'Threads' view"	
 
 * 8/20/2015	adjustResize vs adjustPan	http://developer.android.com/guide/topics/manifest/activity-element.html
 
