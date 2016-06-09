@@ -19,7 +19,9 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
-* **Rx's Obervable.subscribe() has overload for multiple functions** - This means that you don't have to pass in an Observer which imlement's three methods (onNext, onError, and onComplete). By passing in a three-method object, you can't lambda-ify. However with the overloaded subscribe() method, it takes in single-method objects (i.e. function objects) as parameters. [link](http://reactivex.io/RxJava/javadoc/rx/Observable.html#subscribe(rx.functions.Action1,%20rx.functions.Action1,%20rx.functions.Action0%29). This means you can lambda-ify.
+* **6/9/2016** In Android Studio when refactoring code out into new method, it will detect other occurances of that code and replace with new method call.
+
+* **5/19/2016** Rx's Obervable.subscribe() has overload for multiple functions. This means that you don't have to pass in an Observer which imlement's three methods (onNext, onError, and onComplete). By passing in a three-method object, you can't lambda-ify. However with the overloaded subscribe() method, it takes in single-method objects (i.e. function objects) as parameters. [link](http://reactivex.io/RxJava/javadoc/rx/Observable.html#subscribe(rx.functions.Action1,%20rx.functions.Action1,%20rx.functions.Action0%29). This means you can lambda-ify.
 
 * **5/16/2016** `TextUtils.join` for creating character-delimited strings; [link](https://developer.android.com/reference/android/text/TextUtils.html#join(java.lang.CharSequence, java.lang.Object[]))
 
@@ -49,7 +51,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **8/24/2015**	in Android Studio we can see running threads in debug without having to use breakpoint with "Restore 'Threads' view"	
 
-* 8/20/2015	adjustResize vs adjustPan	http://developer.android.com/guide/topics/manifest/activity-element.html
+* **8/20/2015**	adjustResize vs adjustPan	http://developer.android.com/guide/topics/manifest/activity-element.html
 
 * 7/31/2015	GSON can serialize directly to/from enum	http://stackoverflow.com/questions/9064433/gson-non-case-sensitive-enum-deserialization/18343576#18343576
 
