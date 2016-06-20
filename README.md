@@ -8,6 +8,7 @@ There are some things that I regularly need to come back to and refresh myself o
 ### Software Dev Soft Skills
 * [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
 * [Don't Re-estimate Stories](https://www.mountaingoatsoftware.com/blog/to-re-estimate-or-not-that-is-the-question)
+* [How to squash commits with CL rebase](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html)
 
 ### Testing
 
