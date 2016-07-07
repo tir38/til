@@ -20,6 +20,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **7/7/2016** [`PhoneNumberFormattingTextWatcher`](https://developer.android.com/reference/android/telephony/PhoneNumberFormattingTextWatcher.html) is a thing.
+
 * **7/5/2016** The default interpolator on `ObjectAnimator` is ` AccelerateDecelerateInterpolator` not (as I expected) `LinearInterpolator`. This results in really janky animation when repeating.
 
 * **6/17/2016** Travis will not supply secret env vars for builds coming from pull requests from upstream forks. This means that if other people create a pull request against your repository, they can't see your secret env vars. [read more](https://docs.travis-ci.com/user/pull-requests#Security-Restrictions-when-testing-Pull-Requests)
