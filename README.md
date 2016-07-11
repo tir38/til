@@ -20,6 +20,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **7/11/2016** When specifying url in intent filter, scheme is mandatory *"If a scheme is not specified for the intent filter, all the other URI attributes are ignored."* [docs](https://developer.android.com/guide/topics/manifest/data-element.html#scheme)
+
 * **7/7/2016** [`PhoneNumberFormattingTextWatcher`](https://developer.android.com/reference/android/telephony/PhoneNumberFormattingTextWatcher.html) is a thing.
 
 * **7/5/2016** The default interpolator on `ObjectAnimator` is ` AccelerateDecelerateInterpolator` not (as I expected) `LinearInterpolator`. This results in really janky animation when repeating.
@@ -62,7 +64,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **7/31/2015**	GSON can serialize directly to/from enum; [read more](http://stackoverflow.com/questions/9064433/gson-non-case-sensitive-enum-deserialization/18343576#18343576)
 
-* 7/22/2015	we can recreate back stack in pending intent	http://stackoverflow.com/a/13294352
+* **7/22/2015**	we can recreate back stack in pending intent [read more](http://stackoverflow.com/a/13294352)
 
 * 7/16/2015	setUserVisibleHint() is called when view pager puts fragment on screen	
 
