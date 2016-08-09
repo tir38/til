@@ -20,6 +20,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **8/9/2016** That size and capacity are different in array lists [details](http://stackoverflow.com/questions/8896758/initial-size-for-the-arraylist)
+
 * **7/11/2016** When specifying url in intent filter, scheme is mandatory *"If a scheme is not specified for the intent filter, all the other URI attributes are ignored."* [docs](https://developer.android.com/guide/topics/manifest/data-element.html#scheme)
 
 * **7/7/2016** [`PhoneNumberFormattingTextWatcher`](https://developer.android.com/reference/android/telephony/PhoneNumberFormattingTextWatcher.html) is a thing.
@@ -66,7 +68,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **7/22/2015**	we can recreate back stack in pending intent [read more](http://stackoverflow.com/a/13294352)
 
-* 7/16/2015	setUserVisibleHint() is called when view pager puts fragment on screen	
+* **7/16/2015**	setUserVisibleHint() is called when view pager puts fragment on screen
 
 * 6/19/2015	compareTo takes in a generic	
 
