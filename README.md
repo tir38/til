@@ -16,6 +16,10 @@ There are some things that I regularly need to come back to and refresh myself o
 * [Proper Naming of Test Doubles](https://blog.8thlight.com/uncle-bob/2014/05/14/TheLittleMocker.html)
 * [Principles of Test Automation](http://xunitpatterns.com/Principles%20of%20Test%20Automation.html#Use%20the%20Front%20Door%20First) (useful beyond the "automation" part)
 
+###Style Guides
+* [The best Android style guide](https://github.com/bufferapp/android-guidelines/blob/master/project_style_guidelines.md)
+
+
 ##Today I Learned:
 
 A running list of things that I've learned or had to re-learn:
