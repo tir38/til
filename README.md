@@ -24,6 +24,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **9/6/2016** Using Dagger, we don't *have* to use the module to provide all sub-dependencies. We can just use `@Binds` (instead of `@Provides`) [read more](https://medium.com/android-news/inject-interfaces-without-providing-in-dagger-2-618cce9b1e29#.ozol1agh5)
+
 * **9/2/2016** FragmentTransactions can be commited after onSavedInstanceState if you are willing to lose state when activity is killed via [commitAllowingStateLoss( )](https://developer.android.com/reference/android/app/FragmentTransaction.html#commitAllowingStateLoss(%29)
 
 * **8/9/2016** That size and capacity are different in array lists [details](http://stackoverflow.com/questions/8896758/initial-size-for-the-arraylist)
@@ -78,7 +80,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **6/19/2015**	`compareTo` takes in a generic	
 
-* 6/19/2015	in java, you can cast a null object without exception	http://stackoverflow.com/questions/18723596/no-exception-while-type-casting-with-a-null-in-java
+* **6/19/2015**	in java, you can cast a null object without exception	[read more](http://stackoverflow.com/questions/18723596/no-exception-while-type-casting-with-a-null-in-java)
 
 * 6/19/2015	Butterknife has an @onEditorAction annotation	https://jakewharton.github.io/butterknife/javadoc/butterknife/OnEditorAction.html
 
