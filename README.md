@@ -24,6 +24,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **10/13/2016** Views can dump out a bitmap version of themselves by "hijacking" the existing draw(Canvas method) method. This method is normally used by parent views to draw a view by providing a canvas for the view. Instead we supply our own Canvas that has an empty (but properly sized) Bitmap. This bitmap will then be used by the view to draw a pixelated version of itself. Read more [here](http://stackoverflow.com/a/3036736).
+
 * **9/6/2016** Using Dagger, we don't *have* to use the module to provide all sub-dependencies. We can just use `@Binds` (instead of `@Provides`) [read more](https://medium.com/android-news/inject-interfaces-without-providing-in-dagger-2-618cce9b1e29#.ozol1agh5)
 
 * **9/2/2016** FragmentTransactions can be commited after onSavedInstanceState if you are willing to lose state when activity is killed via [commitAllowingStateLoss( )](https://developer.android.com/reference/android/app/FragmentTransaction.html#commitAllowingStateLoss(%29)
@@ -82,7 +84,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **6/19/2015**	in java, you can cast a null object without exception	[read more](http://stackoverflow.com/questions/18723596/no-exception-while-type-casting-with-a-null-in-java)
 
-* 6/19/2015	Butterknife has an @onEditorAction annotation	https://jakewharton.github.io/butterknife/javadoc/butterknife/OnEditorAction.html
+* **6/19/2015**	Butterknife has an @onEditorAction annotation	[read more](https://jakewharton.github.io/butterknife/javadoc/butterknife/OnEditorAction.html)
 
 * 6/14/2015	apply() to shared pref is async; commit() is sync and returns success boolean	
 * 6/10/2015	parentActivityName was introduced in API 16, this is one of the reasons we set minSDK = 16 in version 2 of the book	http://developer.android.com/guide/topics/manifest/activity-element.html#parent
