@@ -25,6 +25,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **12/7/2016** RxJava has a `distinct` and `distinctUntilChanged` operators that won't emit duplicate items [read more](http://rxmarbles.com/#distinctUntilChanged)
+
 * **11/7/2016** Junit4's `@BeforeClass` and `@AfterClass` methods have to be `static`. [read more](http://selftechy.com/2011/05/17/junit4-before-vs-beforeclass-after-vs-afterclass)
 
 * **10/13/2016** Views can dump out a bitmap version of themselves by "hijacking" the existing draw(Canvas method) method. This method is normally used by parent views to draw a view by providing a canvas for the view. Instead we supply our own Canvas that has an empty (but properly sized) Bitmap. This bitmap will then be used by the view to draw a pixelated version of itself. Read more [here](http://stackoverflow.com/a/3036736).
@@ -90,8 +92,8 @@ A running list of things that I've learned or had to re-learn:
 * **6/19/2015**	Butterknife has an @onEditorAction annotation	[read more](https://jakewharton.github.io/butterknife/javadoc/butterknife/OnEditorAction.html)
 
 * **6/14/2015**	`apply()` to shared pref is async; `commit()` is sync and returns success boolean	
-* 
-* 6/10/2015	parentActivityName was introduced in API 16, this is one of the reasons we set minSDK = 16 in version 2 of the book	http://developer.android.com/guide/topics/manifest/activity-element.html#parent
+
+* **6/10/2015**	`parentActivityName` was introduced in API 16, this is one of the reasons we set minSDK = 16 in version 2 of the book [read more](http://developer.android.com/guide/topics/manifest/activity-element.html#parent)
 
 * 6/9/2015	LinearLayout.LayoutParams constuctor takes in layout weight as a float, so we can specify layout weight as float in xml	http://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html#LinearLayout.LayoutParams(int, int, float)
 
