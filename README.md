@@ -25,6 +25,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **2/10/2017** RecyclerView has a `smoothScrollToPosition` in addition to `scrollToPosition`
+
 * **12/7/2016** RxJava has a `distinct` and `distinctUntilChanged` operators that won't emit duplicate items [read more](http://rxmarbles.com/#distinctUntilChanged)
 
 * **11/7/2016** Junit4's `@BeforeClass` and `@AfterClass` methods have to be `static`. [read more](http://selftechy.com/2011/05/17/junit4-before-vs-beforeclass-after-vs-afterclass)
@@ -95,7 +97,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **6/10/2015**	`parentActivityName` was introduced in API 16, this is one of the reasons we set minSDK = 16 in version 2 of the book [read more](http://developer.android.com/guide/topics/manifest/activity-element.html#parent)
 
-* 6/9/2015	LinearLayout.LayoutParams constuctor takes in layout weight as a float, so we can specify layout weight as float in xml	http://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html#LinearLayout.LayoutParams(int, int, float)
+* **6/9/2015**	LinearLayout.LayoutParams constuctor takes in layout weight as a float, so we can specify layout weight as float in xml	[link](http://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html#LinearLayout.LayoutParams(int, int, float%29)
 
 * 5/15/2015	we can have our location request piggy back another request (and only get locations when another app requests a location) via the PRIORITY_NO_POWER flag	https://developer.android.com/reference/com/google/android/gms/location/LocationRequest.html#PRIORITY_NO_POWER
 
