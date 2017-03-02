@@ -17,8 +17,12 @@ There are some things that I regularly need to come back to and refresh myself o
 * [Proper Naming of Test Doubles](https://blog.8thlight.com/uncle-bob/2014/05/14/TheLittleMocker.html)
 * [Principles of Test Automation](http://xunitpatterns.com/Principles%20of%20Test%20Automation.html#Use%20the%20Front%20Door%20First) (useful beyond the "automation" part)
 
-###Style Guides
+### Style Guides
 * [The best Android style guide](https://github.com/bufferapp/android-guidelines/blob/master/project_style_guidelines.md)
+
+### Android Studio Tips
+* [50 Android Studio tips](https://medium.com/@mmbialas/50-android-studio-tips-tricks-resources-you-should-be-familiar-with-as-an-android-developer-af86e7cf56d2#.zdg2tg99u)
+
 
 
 ##Today I Learned:
@@ -99,7 +103,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **6/9/2015**	LinearLayout.LayoutParams constuctor takes in layout weight as a float, so we can specify layout weight as float in xml	[link](http://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html#LinearLayout.LayoutParams(int, int, float%29)
 
-* 5/15/2015	we can have our location request piggy back another request (and only get locations when another app requests a location) via the PRIORITY_NO_POWER flag	https://developer.android.com/reference/com/google/android/gms/location/LocationRequest.html#PRIORITY_NO_POWER
+* **5/15/2015**	 we can have our location request piggy back another request (and only get locations when another app requests a location) via the [PRIORITY_NO_POWER flag](https://developer.android.com/reference/com/google/android/gms/location/LocationRequest.html#PRIORITY_NO_POWER)
 
 * 5/15/2015	we can set "uses feature" for location (and course and fine resolution)	http://developer.android.com/guide/topics/manifest/uses-feature-element.html#features-reference
 
