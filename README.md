@@ -29,6 +29,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **5/17/2017** You don't need to do math on Window height/width to determine orientation. Just `getResources().getConfiguration().orientation`. [read more](https://developer.android.com/reference/android/content/res/Configuration.html#orientation)
+
 * **2/10/2017** RecyclerView has a `smoothScrollToPosition` in addition to `scrollToPosition`
 
 * **12/7/2016** RxJava has a `distinct` and `distinctUntilChanged` operators that won't emit duplicate items [read more](http://rxmarbles.com/#distinctUntilChanged)
@@ -39,7 +41,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **9/6/2016** Using Dagger, we don't *have* to use the module to provide all sub-dependencies. We can just use `@Binds` (instead of `@Provides`) [read more](https://medium.com/android-news/inject-interfaces-without-providing-in-dagger-2-618cce9b1e29#.ozol1agh5)
 
-* **9/2/2016** FragmentTransactions can be commited after onSavedInstanceState if you are willing to lose state when activity is killed via [commitAllowingStateLoss( )](https://developer.android.com/reference/android/app/FragmentTransaction.html#commitAllowingStateLoss(%29)
+* **9/2/2016** FragmentTransactions can be committed after onSavedInstanceState if you are willing to lose state when activity is killed via [commitAllowingStateLoss( )](https://developer.android.com/reference/android/app/FragmentTransaction.html#commitAllowingStateLoss(%29)
 
 * **8/9/2016** That size and capacity are different in array lists [details](http://stackoverflow.com/questions/8896758/initial-size-for-the-arraylist)
 
@@ -51,9 +53,9 @@ A running list of things that I've learned or had to re-learn:
 
 * **6/17/2016** Travis will not supply secret env vars for builds coming from pull requests from upstream forks. This means that if other people create a pull request against your repository, they can't see your secret env vars. [read more](https://docs.travis-ci.com/user/pull-requests#Security-Restrictions-when-testing-Pull-Requests)
 
-* **6/9/2016** In Android Studio when refactoring code out into new method, it will detect other occurances of that code and replace with new method call.
+* **6/9/2016** In Android Studio when refactoring code out into new method, it will detect other occurrences of that code and replace with new method call.
 
-* **5/19/2016** Rx's Obervable.subscribe() has overload for multiple functions. This means that you don't have to pass in an Observer which imlement's three methods (onNext, onError, and onComplete). By passing in a three-method object, you can't lambda-ify. However with the overloaded subscribe() method, it takes in single-method objects (i.e. function objects) as parameters. [link](http://reactivex.io/RxJava/javadoc/rx/Observable.html#subscribe(rx.functions.Action1,%20rx.functions.Action1,%20rx.functions.Action0%29). This means you can lambda-ify.
+* **5/19/2016** Rx's Obervable.subscribe() has overload for multiple functions. This means that you don't have to pass in an Observer which implements three methods (onNext, onError, and onComplete). By passing in a three-method object, you can't lambda-ify. However with the overloaded subscribe() method, it takes in single-method objects (i.e. function objects) as parameters. [link](http://reactivex.io/RxJava/javadoc/rx/Observable.html#subscribe(rx.functions.Action1,%20rx.functions.Action1,%20rx.functions.Action0%29). This means you can lambda-ify.
 
 * **5/16/2016** `TextUtils.join` for creating character-delimited strings; [link](https://developer.android.com/reference/android/text/TextUtils.html#join(java.lang.CharSequence, java.lang.Object[]))
 
@@ -101,15 +103,15 @@ A running list of things that I've learned or had to re-learn:
 
 * **6/10/2015**	`parentActivityName` was introduced in API 16, this is one of the reasons we set minSDK = 16 in version 2 of the book [read more](http://developer.android.com/guide/topics/manifest/activity-element.html#parent)
 
-* **6/9/2015**	LinearLayout.LayoutParams constuctor takes in layout weight as a float, so we can specify layout weight as float in xml	[link](http://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html#LinearLayout.LayoutParams(int, int, float%29)
+* **6/9/2015**	LinearLayout.LayoutParams constructor takes in layout weight as a float, so we can specify layout weight as float in xml	[link](http://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html#LinearLayout.LayoutParams(int, int, float%29)
 
 * **5/15/2015**	 we can have our location request piggy back another request (and only get locations when another app requests a location) via the [PRIORITY_NO_POWER flag](https://developer.android.com/reference/com/google/android/gms/location/LocationRequest.html#PRIORITY_NO_POWER)
 
-* 5/15/2015	we can set "uses feature" for location (and course and fine resolution)	http://developer.android.com/guide/topics/manifest/uses-feature-element.html#features-reference
+* **5/15/2015**	we can set "uses feature" for location (and course and fine resolution)	[read more](http://developer.android.com/guide/topics/manifest/uses-feature-element.html#features-reference)
 
 * 5/14/2015	we can intercept recycler view's onMeasure to set custom span	http://blog.sqisland.com/2014/12/recyclerview-autofit-grid.html
 
-* 5/14/2015	I never knew **why* we set attachToRoot to be false in side layout inflater. Its because layout inflater doesnt' know that something else might handle attachement (e.g. a fragment)	http://stackoverflow.com/a/12567640
+* 5/14/2015	I never knew **why* we set attachToRoot to be false in side layout inflater. Its because layout inflater doesn't' know that something else might handle attachment (e.g. a fragment)	http://stackoverflow.com/a/12567640
 
 * 5/13/2015	we can rely on the system backup to backup our app	http://developer.android.com/google/backup/index.html
 
@@ -118,7 +120,7 @@ A running list of things that I've learned or had to re-learn:
 * 5/1/2015	ints in java are 32 bit signed, in swift/objC they are 64 bit signed	
 * 5/1/2015	you can long press on a notification and see which app posted it and link to application's notification screen	
 
-* 4/28/2015	cool plugin to generate butterknife annontations	https://github.com/avast/android-butterknife-zelezny
+* 4/28/2015	cool plugin to generate butterknife annotations	https://github.com/avast/android-butterknife-zelezny
 
 * 4/28/2015	All the widgets that I traditionally think of having enabled state (i.e buttons/ edit texts) actually inherit the setEnabled() method from View. So any View object can be set to enabled or disabled	http://developer.android.com/reference/android/view/View.html#setEnabled(boolean)
 
@@ -141,4 +143,4 @@ A running list of things that I've learned or had to re-learn:
 
 * 4/13/2015	"%s" is a valid string formatter; you don't need to use $1%s
 
-* 4/13/2015	if three wigets live insde a LinearLayout and the second one is "match parent" and first and third widgets are "wrap content"  then you'll see the first and second wigets but not the third. it will get collapsed to zero	
+* 4/13/2015	if three widgets live inside a LinearLayout and the second one is "match parent" and first and third widgets are "wrap content"  then you'll see the first and second widgets but not the third. it will get collapsed to zero	
