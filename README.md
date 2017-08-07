@@ -1,6 +1,6 @@
-#Brain Dump
+# Brain Dump
 
-##Good Habits
+## Good Habits
 *I'm not a great programmer; I'm just a good programmer with great habits.* - Kent Beck
 
 There are some things that I regularly need to come back to and refresh myself on.
@@ -28,6 +28,8 @@ There are some things that I regularly need to come back to and refresh myself o
 ##Today I Learned:
 
 A running list of things that I've learned or had to re-learn:
+
+* **8/7/2017** `protected` fields are still exposed to entire package. i.e. `package private` is *more* restrictive than `protected`. How did I not know this?
 
 * **5/17/2017** You don't need to do math on Window height/width to determine orientation. Just `getResources().getConfiguration().orientation`. [read more](https://developer.android.com/reference/android/content/res/Configuration.html#orientation)
 
@@ -109,7 +111,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **5/15/2015**	we can set "uses feature" for location (and course and fine resolution)	[read more](http://developer.android.com/guide/topics/manifest/uses-feature-element.html#features-reference)
 
-* 5/14/2015	we can intercept recycler view's onMeasure to set custom span	http://blog.sqisland.com/2014/12/recyclerview-autofit-grid.html
+* **5/14/2015**	we can intercept recycler view's `onMeasure` to set custom span [link](http://blog.sqisland.com/2014/12/recyclerview-autofit-grid.html)
 
 * 5/14/2015	I never knew **why* we set attachToRoot to be false in side layout inflater. Its because layout inflater doesn't' know that something else might handle attachment (e.g. a fragment)	http://stackoverflow.com/a/12567640
 
