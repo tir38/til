@@ -29,6 +29,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
+* **8/27/2016** We can make Observables blocking with `toBlocking()` for RxJava1 and `forBlockingX()` for RxJava2. Read more [here](https://stackoverflow.com/questions/28081821/rxjava-how-to-set-observer-to-block).
+
 * **8/7/2017** `protected` fields are still exposed to entire package. i.e. `package private` is *more* restrictive than `protected`. How did I not know this?
 
 * **5/17/2017** You don't need to do math on Window height/width to determine orientation. Just `getResources().getConfiguration().orientation`. [read more](https://developer.android.com/reference/android/content/res/Configuration.html#orientation)
@@ -113,7 +115,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **5/14/2015**	we can intercept recycler view's `onMeasure` to set custom span [link](http://blog.sqisland.com/2014/12/recyclerview-autofit-grid.html)
 
-* 5/14/2015	I never knew **why* we set attachToRoot to be false in side layout inflater. Its because layout inflater doesn't' know that something else might handle attachment (e.g. a fragment)	http://stackoverflow.com/a/12567640
+* **5/14/2015** 	I never knew *why* we set `attachToRoot` to be false inside layout inflater. Its because layout inflater doesn't' know that something else might handle attachment (e.g. a fragment). Read more [here](http://stackoverflow.com/a/12567640).
 
 * 5/13/2015	we can rely on the system backup to backup our app	http://developer.android.com/google/backup/index.html
 
