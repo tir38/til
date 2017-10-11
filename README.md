@@ -30,7 +30,9 @@ There are some things that I regularly need to come back to and refresh myself o
 
 A running list of things that I've learned or had to re-learn:
 
-* **8/27/2016** We can make Observables blocking with `toBlocking()` for RxJava1 and `forBlockingX()` for RxJava2. Read more [here](https://stackoverflow.com/questions/28081821/rxjava-how-to-set-observer-to-block).
+* **10/11/2017** If we set `START_STICKY` then system will restart service when resources are available (which means immediatly if user force kills app). Read more [here](https://stackoverflow.com/q/15452935)
+
+* **8/27/2017** We can make Observables blocking with `toBlocking()` for RxJava1 and `forBlockingX()` for RxJava2. Read more [here](https://stackoverflow.com/questions/28081821/rxjava-how-to-set-observer-to-block).
 
 * **8/7/2017** `protected` fields are still exposed to entire package. i.e. `package private` is *more* restrictive than `protected`. How did I not know this?
 
@@ -118,7 +120,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **5/14/2015** 	I never knew *why* we set `attachToRoot` to be false inside layout inflater. Its because layout inflater doesn't' know that something else might handle attachment (e.g. a fragment). Read more [here](http://stackoverflow.com/a/12567640).
 
-* 5/13/2015	we can rely on the system backup to backup our app	http://developer.android.com/google/backup/index.html
+* **5/13/2015**	we can rely on the system backup to backup our app. Read more [here](http://developer.android.com/google/backup/index.html)
 
 * 5/11/2015	onActivityResult doesn't call up to super. So we don't have to worry about conflicts from inheriting REQUEST_CODES	
 
