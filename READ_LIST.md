@@ -13,7 +13,13 @@
 * https://proandroiddev.com/solid-android-analytics-with-rxjava2-6270ce8c26f9
 * https://blog.stylingandroid.com/time-for-non-time-lords-part-1
 * [Understanding the performance benefits of ConstraintLayout](https://android-developers.googleblog.com/2017/08/understanding-performance-benefits-of.html)
+* [Bluetooth attribute caching problems](https://punchthrough.com/blog/posts/attribute-caching-in-ble-advantages-and-pitfalls)
+* [Instant Apps SDK 1.1](https://android-developers.googleblog.com/2017/10/introducing-android-instant-apps-sdk-11.html)
+* [Random Musings on the Android 8.1 Developer Preview 1](https://commonsware.com/blog/2017/10/25/random-musings-android-8p1-developer-preview-1.html)
+* [Exploring Background Execution Limits on Android Oreo](https://medium.com/exploring-android/exploring-background-execution-limits-on-android-oreo-ab384762a66c)
 
+## Android Accessibility
+* [Making you App Switch Access Compatible](https://riggaroo.co.za/android-accessibility-switch-access)
 
 ## General Software
 * https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html
