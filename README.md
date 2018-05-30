@@ -29,7 +29,9 @@ There are some things that I regularly need to come back to and refresh myself o
 
 ##Today I Learned:
 
-A running list of things that I've learned or had to re-learn:
+A running list of things that I've learned or had to re-learn. Lately I've been doing more [reading](READ_LIST.md) than learning individual tricks:
+
+* **05/30/2018** You can define RecyclerView's LayoutManager in xml [here](https://stackoverflow.com/a/35680716)
 
 * **10/11/2017** If we set `START_STICKY` then system will restart service when resources are available (which means immediatly if user force kills app). Read more [here](https://stackoverflow.com/q/15452935)
 
@@ -123,7 +125,7 @@ A running list of things that I've learned or had to re-learn:
 
 * **5/13/2015**	we can rely on the system backup to backup our app. Read more [here](http://developer.android.com/google/backup/index.html)
 
-* 5/11/2015	onActivityResult doesn't call up to super. So we don't have to worry about conflicts from inheriting REQUEST_CODES	
+* **5/11/2015**	`onActivityResult` doesn't call up to super. So we don't have to worry about conflicts from inheriting `REQUEST_CODES`
 
 * 5/1/2015	ints in java are 32 bit signed, in swift/objC they are 64 bit signed	
 * 5/1/2015	you can long press on a notification and see which app posted it and link to application's notification screen	
