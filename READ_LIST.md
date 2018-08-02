@@ -23,6 +23,8 @@
 * [Android tools options for layout editor, pt 2](https://blog.stylingandroid.com/tool-time-part-2/)
 * [Improve cold start times](https://redfin.engineering/how-we-improved-our-android-app-cold-start-time-by-28-a722e231314a)
 * [Renaming build.gradle files for each module](http://www.developerphil.com/renaming-your-gradle-build-files/)
+* [Performance drawbacks of Vector Images](https://medium.com/upday-devs/optimizing-the-performance-of-vector-drawables-680a4c456286)
+* [Window fitting VIDEO](https://www.youtube.com/watch?reload=9&v=_mGDMVRO3iE)
 
 ## Android P changes
 * [Changes to @hide](https://commonsware.com/blog/2018/01/18/think-hard-about-hide.html)
@@ -44,10 +46,13 @@
 * https://github.com/testdouble/contributing-tests/wiki/Don%27t-mock-what-you-don%27t-own
 * [Cleanly create test data](https://testing.googleblog.com/2018/02/testing-on-toilet-cleanly-create-test.html)
 * [To comment or not to comment](http://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html)
-* 
+* [Android Test Orchestrator, how to](https://medium.com/stepstone-tech/android-test-orchestrator-unmasked-83b8879928fa)
 
 ## Process
 * https://www.linkedin.com/pulse/20140715230840-3372859-agile-basics-estimating-the-unknown
 * https://www.leadingagile.com/2015/07/estimating-placeholder-stories-is-a-bad-practice/
 * https://medium.com/bynder-tech/12-common-mistakes-made-when-using-story-points-f0bb9212d2f7
 * [Too many comments in your code review](http://testing.googleblog.com/2017/06/code-health-too-many-comments-on-your.html)
+
+## CI
+* [Parallel workflows in Bitrise](https://medium.com/@bitrise/start-multiple-builds-with-the-same-trigger-on-bitrise-1d46ca847b9e)
