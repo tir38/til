@@ -1,5 +1,5 @@
 ## Android
-* https://github.com/akaita/RxJava2Debug
+* [RxJava2Debug](https://github.com/akaita/RxJava2Debug)
 * https://blog.stylingandroid.com/the-trouble-with-clickablespan/
 * https://code.tutsplus.com/tutorials/introduction-to-android-architecture--cms-28749
 * http://blog.danlew.net/2017/08/02/why-not-rxlifecycle
@@ -25,6 +25,8 @@
 * [Renaming build.gradle files for each module](http://www.developerphil.com/renaming-your-gradle-build-files/)
 * [Performance drawbacks of Vector Images](https://medium.com/upday-devs/optimizing-the-performance-of-vector-drawables-680a4c456286)
 * [Window fitting VIDEO](https://www.youtube.com/watch?reload=9&v=_mGDMVRO3iE)
+* [Google I/O 2018 app animations](https://medium.com/androiddevelopers/animating-on-a-schedule-8a90d812ae4)
+* [Google I/O 2018 app architecture](https://medium.com/androiddevelopers/google-i-o-2018-app-architecture-and-testing-f546e37fc7eb)
 
 ## Android P changes
 * [Changes to @hide](https://commonsware.com/blog/2018/01/18/think-hard-about-hide.html)
