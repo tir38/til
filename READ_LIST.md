@@ -27,9 +27,15 @@
 * [Window fitting VIDEO](https://www.youtube.com/watch?reload=9&v=_mGDMVRO3iE)
 * [Google I/O 2018 app animations](https://medium.com/androiddevelopers/animating-on-a-schedule-8a90d812ae4)
 * [Google I/O 2018 app architecture](https://medium.com/androiddevelopers/google-i-o-2018-app-architecture-and-testing-f546e37fc7eb)
+* [droidcon NYC 2017 - Optimizing Dagger on Android](https://www.youtube.com/watch?v=PBrhRvhF00k)
+* [Introduction to MotionLayout, pt1](https://medium.com/google-developers/introduction-to-motionlayout-part-i-29208674b10d)
+* [Udacity's experience with ReactNative](https://engineering.udacity.com/react-native-a-retrospective-from-the-mobile-engineering-team-at-udacity-89975d6a8102)
+* [Retrofit uses Proxies](https://proandroiddev.com/how-does-retrofit-work-6ecad1bb683b)
+* [Styles, Themes, Text Appearnce, and attributes](https://medium.com/androiddevelopers/whats-your-text-s-appearance-f3a1729192d)
 
 ## Android P changes
 * [Changes to @hide](https://commonsware.com/blog/2018/01/18/think-hard-about-hide.html)
+* [Precomputed text in recycylerview](https://medium.com/androiddevelopers/prefetch-text-layout-in-recyclerview-4acf9103f438)
 
 ## Android Accessibility
 * [Making you App Switch Access Compatible](https://riggaroo.co.za/android-accessibility-switch-access)
@@ -49,6 +55,8 @@
 * [Cleanly create test data](https://testing.googleblog.com/2018/02/testing-on-toilet-cleanly-create-test.html)
 * [To comment or not to comment](http://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html)
 * [Android Test Orchestrator, how to](https://medium.com/stepstone-tech/android-test-orchestrator-unmasked-83b8879928fa)
+* [Using ADB Enhanced to test diff device situations](https://ashishb.net/tech/introducing-adb-enhanced-a-swiss-army-knife-for-android-development/)
+* [Good Android Test strategy at Azimo](https://medium.com/azimolabs/automated-testing-will-set-your-engineering-team-free-a89467c40731)
 
 ## Process
 * https://www.linkedin.com/pulse/20140715230840-3372859-agile-basics-estimating-the-unknown
