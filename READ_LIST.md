@@ -32,6 +32,12 @@
 * [Udacity's experience with ReactNative](https://engineering.udacity.com/react-native-a-retrospective-from-the-mobile-engineering-team-at-udacity-89975d6a8102)
 * [Retrofit uses Proxies](https://proandroiddev.com/how-does-retrofit-work-6ecad1bb683b)
 * [Styles, Themes, Text Appearnce, and attributes](https://medium.com/androiddevelopers/whats-your-text-s-appearance-f3a1729192d)
+* [Android's Java 8 Support](http://jakewharton.com/androids-java-8-support/)
+* [Android's Java 9, 10, 11, and 12 Support](http://jakewharton.com/androids-java-9-10-11-and-12-support/)
+* [Digging into D8 and R8](https://www.youtube.com/watch?v=99H7COwhIpI)
+* [Why I Will Not Use Architecture Navigation Component](https://proandroiddev.com/why-i-will-not-use-architecture-navigation-component-97d2ad596b36)
+* [Exploring Android Thread Priority](https://link.medium.com/Klt0byNn7Q)
+
 
 ## Android P changes
 * [Changes to @hide](https://commonsware.com/blog/2018/01/18/think-hard-about-hide.html)
