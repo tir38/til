@@ -17,6 +17,7 @@ There are some things that I regularly need to come back to and refresh myself o
 * [Don't Mock What You Don't Own](https://blog.8thlight.com/eric-smith/2011/10/27/thats-not-yours.html)
 * [Proper Naming of Test Doubles](https://blog.8thlight.com/uncle-bob/2014/05/14/TheLittleMocker.html)
 * [Principles of Test Automation](http://xunitpatterns.com/Principles%20of%20Test%20Automation.html#Use%20the%20Front%20Door%20First) (useful beyond the "automation" part)
+* [Avoid Nested Mocks](https://www.destroyallsoftware.com/blog/2014/test-isolation-is-about-avoiding-mocks)
 
 ### Style Guides
 * [The best Android style guide](https://github.com/bufferapp/android-guidelines/blob/master/project_style_guidelines.md)
@@ -32,6 +33,8 @@ There are some things that I regularly need to come back to and refresh myself o
 
 * [Square's Crash Fast approach](https://vimeo.com/145042944)
 
+### Design Patterns
+* [Functional Core / Imperetive Shell](https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md)
 
 ## Reading List
 

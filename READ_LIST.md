@@ -63,6 +63,7 @@
 * [Android Test Orchestrator, how to](https://medium.com/stepstone-tech/android-test-orchestrator-unmasked-83b8879928fa)
 * [Using ADB Enhanced to test diff device situations](https://ashishb.net/tech/introducing-adb-enhanced-a-swiss-army-knife-for-android-development/)
 * [Good Android Test strategy at Azimo](https://medium.com/azimolabs/automated-testing-will-set-your-engineering-team-free-a89467c40731)
+* [Verified Fakes, explained](https://pythonspeed.com/articles/verified-fakes/)
 
 ## Process
 * https://www.linkedin.com/pulse/20140715230840-3372859-agile-basics-estimating-the-unknown
