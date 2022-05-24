@@ -91,6 +91,11 @@ There are some things that I regularly need to come back to and refresh myself o
 ### CI
 * [Parallel workflows in Bitrise](https://medium.com/@bitrise/start-multiple-builds-with-the-same-trigger-on-bitrise-1d46ca847b9e)
 
+### Compose
+* [Compose from First Principles](http://intelligiblebabble.com/compose-from-first-principles/)
+* [A Jetpack Compose by any other name](https://jakewharton.com/a-jetpack-compose-by-any-other-name/) (history of Compose project and origins on name)
+* [Migrating to Compose](https://compose.academy/blog/migrating_to_compose_-_composeview) (helpful in understanding how to migrate a single view to use composeUi and still use that view inside an existing android.view hierarchy)
+
 ### General Software
 * https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html
 * [The Harmful Consequences of Postel's Maxim](https://tools.ietf.org/html/draft-thomson-postel-was-wrong-01)
